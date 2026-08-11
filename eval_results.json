@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "total_queries": 3,
+    "hit_rate_pct": 33.33,
+    "avg_latency_sec": 8.834,
+    "p50_latency_sec": 7.462,
+    "p95_latency_sec": 12.197
+  },
+  "details": [
+    {
+      "query_id": 1,
+      "question": "What is the primary objective of the system?",
+      "answer": "The primary objective of the system is to build a low-cost RAG application.",
+      "sources": [
+        "test.txt"
+      ],
+      "hit": true,
+      "latency_sec": 12.197
+    },
+    {
+      "query_id": 2,
+      "question": "Which vector stores are allowed?",
+      "answer": "I do not know.",
+      "sources": [
+        "test.txt"
+      ],
+      "hit": false,
+      "latency_sec": 7.462
+    },
+    {
+      "query_id": 3,
+      "question": "What are the required evaluation metrics?",
+      "answer": "I do not know.",
+      "sources": [
+        "test.txt"
+      ],
+      "hit": false,
+      "latency_sec": 6.844
+    }
+  ]
+}

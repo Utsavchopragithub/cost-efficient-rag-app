@@ -1,0 +1,7 @@
+Retrieval-Augmented Generation (RAG) is an architectural framework that enhances Large Language Model outputs by retrieving relevant factual information from an external knowledge base before generating a response.
+
+A standard RAG pipeline consists of:
+1. Ingestion: Document loading, text chunking, and vector embedding generation using embedding models (e.g., all-MiniLM-L6-v2).
+2. Storage: Vectors and metadata are stored in a Vector Database (e.g., ChromaDB, LanceDB).
+3. Retrieval: Finding top-k most similar chunks for a given query via similarity search.
+4. Generation: Passing retrieved context chunks to the LLM (e.g., Llama 3 via Groq) to generate grounded, cited answers.

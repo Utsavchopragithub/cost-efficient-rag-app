@@ -1,0 +1,3 @@
+Machine Learning (ML) is a subset of Artificial Intelligence (AI) that enables systems to learn and improve from experience without being explicitly programmed. ML algorithms use computational methods to learn information directly from data.
+
+Deep Learning (DL) is a specialized subset of Machine Learning based on Artificial Neural Networks with multiple layers (hence "deep"). Deep Learning architectures such as Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) drive modern computer vision, speech recognition, and natural language processing tasks.
