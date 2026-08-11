@@ -1,21 +1,14 @@
-# Cost-Efficient RAG Application
+# 🤖 Cost-Efficient RAG System with Streamlit UI
 
-## Overview
-A lightweight, cost-effective RAG pipeline built with Groq Llama-3.1-8b-instant, HuggingFace embeddings (`all-MiniLM-L6-v2`), and ChromaDB vector store.
+A lightweight, cost-effective Retrieval-Augmented Generation (RAG) pipeline built with **LangChain**, **ChromaDB**, **Groq API** (`llama-3.1-8b-instant`), and an interactive **Streamlit UI**.
 
-## Features
-- Ingestion with idempotency and customizable metadata tags.
-- Free local vector search + fast LLM inference via Groq.
-- FastAPI endpoints for ingestion (`/ingest`) and query retrieval (`/query`).
-- Evaluation harness generating hit rate, precision, and latency metrics.
+---
 
-## Setup Instructions
-1. Install dependencies: `pip install -r requirements.txt`
-2. Configure `.env`: Set `GROQ_API_KEY=your_key`
-3. Run API server: `python RAG_app_project1/api.py`
-4. Run evaluation: `python RAG_app_project1/eval.py`
+## 🚀 How to Run Locally (Step-by-Step)
 
-## Deliverables
-- `api.py` & `query.py` (Runnable RAG Service)
-- `eval.py` & `eval_results.json` (Evaluation Harness & Output)
-- `COST_ANALYSIS.md` (Cost Breakdown & Database Comparison)
+Follow these simple steps to set up and run the application on your machine:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone [https://github.com/Utsavchopragithub/cost-efficient-rag-app.git](https://github.com/Utsavchopragithub/cost-efficient-rag-app.git)
+cd cost-efficient-rag-app
